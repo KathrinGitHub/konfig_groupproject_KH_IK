@@ -1,0 +1,7 @@
+.idea
+target
+*.log
+*.pdf
+*.html
+log4j2.xml
+logs
