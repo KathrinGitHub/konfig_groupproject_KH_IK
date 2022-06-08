@@ -13,9 +13,9 @@ public class StringQueue implements IQueue {
   private List<String> elements = new ArrayList<String>();
   private int maxSize = 5;
 
-  public StringQueue(int maxsize) {
-    maxSize = maxSize;
-  }
+  public StringQueue(int maxSize) {
+    this.maxSize = maxSize;
+  }       //maxsize -> maxSize; other maxSize -> this.maxSize
 
   @Override
   public boolean offer(String obj) {
@@ -32,7 +32,7 @@ public class StringQueue implements IQueue {
     String element = peek();
 
     if (elements.size() == 0) {
-      elements.remove(0);
+      return "String is empty";                                   //can't remove an element if nothing is there
     }
 
     return element;
@@ -40,8 +40,7 @@ public class StringQueue implements IQueue {
 
   @Override
   public String remove() {
-    String element = poll();
-    element = "";
+    String element = poll();                                    //if you poll you shouldn't override it with ""
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
@@ -68,4 +67,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}                                                                               //removed s
