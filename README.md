@@ -4,8 +4,8 @@
 * Kathrin Hubmann
 * Isabella Kainer
 
-- [ ] expand pom.xml
-- [ ] find and fix errors
+- [ ] expand pom.xml (Isabella)
+- [ ] find and fix errors (Kathrin)
 - [ ] implement Drinks Interface
 - [ ] create a Queue class for Drinks
 - [ ] create methods (Kathrin & Isabella)
