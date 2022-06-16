@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class DrinksQueue implements IDQueue{
+public class DrinksQueue implements IDQueue {
     private List<Drink> elements = new ArrayList<Drink>();
     private int maxSize;
 
@@ -23,19 +23,19 @@ public class DrinksQueue implements IDQueue{
     }
 
     @Override
-    public String poll() {
-        String element = peek();
+    public Drink poll() {
+        Drink element = peek();
 
         if (elements.size() == 0) {
-            return "String is empty";                                   //can't remove an element if nothing is there
+            return null;                                   //can't remove an element if nothing is there
         }
 
         return element;
     }
 
     @Override
-    public String remove() {
-        String element = poll();                                    //if you poll you shouldn't override it with ""
+    public Drink remove() {
+        Drink element = poll();                                    //if you poll you shouldn't override it with ""
         if (element == null)
             throw new NoSuchElementException("there's no element any more");
 
@@ -43,7 +43,7 @@ public class DrinksQueue implements IDQueue{
     }
 
     @Override
-    public String peek() {
+    public Drink peek() {
         Drink element;
         if (elements.size() > 0)
             element = elements.get(0);
@@ -54,8 +54,8 @@ public class DrinksQueue implements IDQueue{
     }
 
     @Override
-    public String element() {
-        String element = peek();
+    public Drink element() {
+        Drink element = peek();
         if (element == null)
             throw new NoSuchElementException("there's no element any more");
 
