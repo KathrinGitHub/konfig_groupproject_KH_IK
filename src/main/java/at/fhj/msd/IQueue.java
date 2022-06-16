@@ -1,4 +1,4 @@
-package at.fhj.msd.vorlage;
+package at.fhj.msd;
 
 // fastly written (not really nice) comments but good enough to understand
 public interface IQueue {
