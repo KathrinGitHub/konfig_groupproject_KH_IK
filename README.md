@@ -4,12 +4,12 @@
 * Kathrin Hubmann
 * Isabella Kainer
 
-- [ ] expand pom.xml (Isabella)
-- [ ] find and fix errors (Kathrin)
-- [ ] implement Drinks Interface
-- [ ] create a Queue class for Drinks
-- [ ] create methods (Kathrin & Isabella)
-- [ ] add JavaDoc comments (Kathrin & Isabella)
+- [x] expand pom.xml (Isabella)
+- [x] find and fix errors (Kathrin)
+- [x] implement Drinks Interface
+- [x] create a Queue class for Drinks
+- [x] create methods (Kathrin & Isabella)
+- [x] add JavaDoc comments (Kathrin & Isabella)
 - [ ] testing + JavaDoc comments (Kathrin & Isabella)
 - [ ] maven site
 - [ ] lastname.md for contributions (one each) (Kathrin & Isabella)
