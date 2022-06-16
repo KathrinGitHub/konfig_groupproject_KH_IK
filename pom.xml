@@ -21,6 +21,19 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
+        <developer>
+            <id>kathrinhubmann</id>
+            <name>Kathrin Hubmann</name>
+            <email>kathrin.hubmann@edu.fh-joanneum.at</email>
+            <url>https://github.com/KathrinGitHub</url>
+            <organization>FH JOANNEUM GmbH</organization>
+            <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+
     </developers>
 
     <properties>
